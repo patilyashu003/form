@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./from.css">
+    <title>form </title>
+</head>
+<body>
+    <h2>model signup form</h2>
+  <button onclick ="document.getElementById('id101').style.display = 'block'"
+   class="fist">sign</button>
+  
+  <div id="id101" class="model">
+  <span onclick="document.getElementById('id101').style.display = 'none'" class="close" id="close1"
+  title="colse modal">&times;</span>
+
+  <form class="modal-containe">
+    <div class="containe">
+   <h1>Sign Up</h1>
+   <p>Please fill in this form to create an account.</p>
+   <hr>
+   <label for="Email"><b>Email</b></label><br>
+   <input type="text" placeholder="Enter the email" name="email" required>
+   <br><br>
+
+   <label for="password"><b>password</b></label><br>
+    <input type="password" placeholder="enter the password" name="password">
+    <br><br>
+
+    <label for="Repeat Password"><b>Repeat Password</b></label><br>
+    <input type="password" name="Repeat Password" placeholder=" Repeat Password">
+    <br><br>
+    
+    <label for="">
+      <input type="checkbox" name="checkbox" > Remember me
+    </label>
+
+    <p>By creating an account you agree to <a href=""> Terms & Privacy.</a> </p>
+
+    <div class="button">
+      <button type="button" onclick = "document.getElementById('id101').style.display = 'none'"
+      class= 'canclebtn'> cancel </button>
+      <button type="submit" class="signup">Sign Up</button>
+    </div>
+    </div>
+  </form>
+</div>
+
+    <script src="./from.js"></script>
+</body>
+</html>
