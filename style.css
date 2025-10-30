@@ -1,0 +1,94 @@
+ body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: white;
+    }
+    .modal {
+      display: none;
+      position: relative;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #474e5d;
+      overflow: auto;
+      padding-top: 50px;
+    }
+    .modal-containe {
+      background-color: rgb(179, 174, 174);
+      margin: 5% auto 15% auto;
+      border: 1px solid #888;
+      width: 80%;
+    }
+    input[type=text], input[type=password] {
+      width: 90%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      display: inline-block;
+      background: #f1f1f1;
+    }
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    .containe {
+      padding: 16px;
+    }
+    .canclebtn {
+      padding: 14px 20px;
+      background-color: #f44336;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .signup {
+      padding: 14px 20px;
+      background-color: green;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .canclebtn, .signup {
+      float: left;
+      width: 50%;
+    }
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    .close {
+      position: absolute;
+      right: 35px;
+      top: 15px;
+      font-size: 40px;
+      font-weight: bolder;
+      color: #f1f1f1;
+    }
+    .close:hover, .close:focus {
+      color: #f44336;
+      cursor: pointer;
+    }
+    .button::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .fist {
+      width: 10%;
+      height: 5vh;
+      background-color: rgb(9, 179, 9);
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+    #output {
+      margin-top: 30px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
